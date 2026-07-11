@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up — Razorpay Clone</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="nav-container">
+      <div class="logo">
+        <a href="index.html" style="display:flex; align-items:center; gap:6px; color:inherit;">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+          <path d="M4 4L20 4L12 20L4 4Z" fill="#0f43d9"/>
+        </svg>
+        <span>Razorpay</span>
+        </a>
+      </div>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="payments.html">Payments</a>
+        <a href="#">Banking+</a>
+        <a href="#">Payroll</a>
+        <a href="#">Partners</a>
+        <a href="#">Resources</a>
+        <a href="support.html">Support</a>
+        <a href="pricing.html">Pricing</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="login.html"><button class="btn-outline">Login</button></a>
+        <a href="signup.html"><button class="btn-solid">Sign Up →</button></a>
+      </div>
+
+      <button class="menu-toggle" id="menuToggle">☰</button>
+    </div>
+  </header>
+
+  <section class="auth-wrapper">
+    <div class="auth-box">
+      <div class="icon-mark-light">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+          <circle cx="12" cy="8" r="3.5" stroke="#fff" stroke-width="1.8"/>
+          <path d="M5 20c0-3.5 3-6 7-6s7 2.5 7 6" stroke="#fff" stroke-width="1.8" stroke-linecap="round"/>
+        </svg>
+      </div>
+
+      <h2>Create your account</h2>
+      <p class="auth-sub">Start accepting payments in minutes</p>
+
+      <form id="signupForm">
+        <div class="input-row">
+          <label for="sName">Full Name</label>
+          <input type="text" id="sName" placeholder="Your name">
+          <span class="error" id="sNameErr"></span>
+        </div>
+
+        <div class="input-row">
+          <label for="sEmail">Email</label>
+          <input type="text" id="sEmail" placeholder="you@example.com">
+          <span class="error" id="sEmailErr"></span>
+        </div>
+
+        <div class="input-row">
+          <label for="sPassword">Password</label>
+          <input type="password" id="sPassword" placeholder="At least 6 characters">
+          <span class="error" id="sPasswordErr"></span>
+        </div>
+
+        <div class="input-row">
+          <label for="sConfirm">Confirm Password</label>
+          <input type="password" id="sConfirm" placeholder="Re-enter your password">
+          <span class="error" id="sConfirmErr"></span>
+        </div>
+
+        <button type="submit" class="btn-solid" style="width:100%; padding:12px;">Create Account</button>
+      </form>
+
+      <p class="auth-switch">Already have an account? <a href="login.html">Login</a></p>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-col brand-col">
+        <div class="logo">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+            <path d="M4 4L20 4L12 20L4 4Z" fill="#0f43d9"/>
+          </svg>
+          <span>Razorpay</span>
+        </div>
+        <p>India's leading full-stack financial solutions company.</p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Products</h4>
+        <a href="payments.html">Payment Gateway</a>
+        <a href="#">Payment Links</a>
+        <a href="#">Payment Pages</a>
+        <a href="#">Route</a>
+      </div>
+
+      <div class="footer-col">
+        <h4>Company</h4>
+        <a href="pricing.html">Pricing</a>
+        <a href="support.html">Support</a>
+        <a href="#">Careers</a>
+        <a href="#">Blog</a>
+      </div>
+
+      <div class="footer-col">
+        <h4>Resources</h4>
+        <a href="#">Developer Docs</a>
+        <a href="#">API Reference</a>
+        <a href="#">Case Studies</a>
+        <a href="#">Community</a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2026 Razorpay Clone — built for practice purposes only.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
