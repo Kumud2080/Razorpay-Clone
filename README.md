@@ -18,4 +18,4 @@ This is a UI clone created for educational purposes only.
 All design credits go to Razorpay. Not intended for commercial use.
 
 ## Live Demo
-[View here](your-github-pages-link)
+[View here](https://kumud2080.github.io/Razorpay-Clone/)
